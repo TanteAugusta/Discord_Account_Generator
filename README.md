@@ -1,6 +1,7 @@
 Required to install
 
 Python 3.7
+
 Project reqirements:
 
 pip install -r /requirements.txt
