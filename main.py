@@ -71,7 +71,7 @@ def login(email, username):
             print("You have sent to mach requests, please wait and try again")
         else:
             print("something went wrong, we got status code: " + str(res.status_code))
-    except StopIteration as ex:
+    except Exception as ex:
         print(str(ex))
 
 
